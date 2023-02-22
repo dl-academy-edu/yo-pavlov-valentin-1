@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+}
+
+.header_list {
+    display: flex;
+    margin-right: auto;
+}
+   
+.header__list-item-contact{
+    display: flex;
+    
+}
