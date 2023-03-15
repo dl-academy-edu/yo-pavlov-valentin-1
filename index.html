@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <title>Main</title>
 </head>
 
@@ -25,37 +26,39 @@
     </header>
     </section class="banner container">
     <h1 class="banner_text"> THE OOH NOO COLLECTION</h1>
+    <button type="button" class="banner__btn" aria-label="Open modal window" class="btn link__info btn__js">Explore now</button>
     <img class="img_monster" src="monster.png" alt="#">
     <ul>
         <li class="banner_title"></li>
     </ul>
     <p class="country">Designed in Slovenia</p>
-    <button type="button" class="banner__btn">Explore now</button>
+ 
     <p class="cost_order">Free (continental) USA shipping on all orders of $100 USD or more!</p>
     </section>
-    <div> 
-        <ul><li class="switch__number">01</li></ul>
-        <ul> <li><button class="switch__active"></button></li></ul>
-       <ul class="switch__rectangel"><li><button class="switch1__rectangel"></button></li>
-        <li><button class="switch2__rectangel"></button></li>
-        <li><button class="switch3__rectangel"></button></li>
+    <div>
+        <ul>
+        <li class="switch__number">01</li>
+         <li><button class="switch__active"></button></li>
+       <ul class="switch__rectangel"><li><button class="switch__rectangel-one"></button></li>
+        <li><button class="switch__rectangel-two"></button></li>
+        <li><button class="switch__rectangel-three"></button></li>
     </ul>
     </div>
     <section class="Category">
         <h2 class="Category_title">Category products</h2>
         <ul class="Category_list">
-            <li class="products__list-item1">
+            <li class="products__list-item.one">
                 <img src="./sweeter.png" alt="Products">
-                <p class="products__list-title1">Apparel kids</p>
+                <p class="products__list-title.one">Apparel kids</p>
             </li>
-            <li class="products__list-item2"> <img src="./sock.png" alt="Products">
-                <p class="products__list-title2">Holiday shop</p>
+            <li class="products__list-item.two"> <img src="./sock.png" alt="Products">
+                <p class="products__list-title.two">Holiday shop</p>
             </li>
-            <li class="products__list-item3"> <img src="./horse.png" alt="Products">
-                <p class="products__list-title3">Toys</p>
+            <li class="products__list-item.three"> <img src="./horse.png" alt="Products">
+                <p class="products__list-title.three">Toys</p>
             </li>
-            <li class="products__list-item4"> <img src="./men on skate.png" alt="Products">
-                <p class="products__list-title4">Accessories</p>
+            <li class="products__list-item.four"> <img src="./men on skate.png" alt="Products">
+                <p class="products__list-title.four"></p>
             </li>
         </ul>
         </section>
@@ -70,8 +73,8 @@
     <section>
         <img class="woman_img" src="./woman.jpg" alt="">
         <h3 class="delivery__baner">Delivery</h3>
-        <ul><li class="delivery__link">Delivery</li></ul>
-        <ul>
+        <ul><li class="delivery__link">Delivery</li>
+       
             <li class="delivery__guarantee"><a href="#">Guarantee</a></li>
             <li class="delivery__credit"><a href="#">Credit</a></li>
         </ul>
@@ -82,13 +85,13 @@
             place for me and i have you and all of the beautiful designers that we work with to thank!</p>
       <button class="button__learn">Learn more</button>
     </section>
-    <section class="Companies container">
+    <section class="Companies">
     <div>
-    <ul>
-        <li class="Companies__list-item1"><img src="./mail.ru.svg" alt="#"></li>
-        <li class="Companies__list-item2"><img src="./apple.svg" alt="#"></li>
-        <li class="Companies__list-item3"><img src="./eltex.svg" alt="#"></li>
-        <li class="Companies__list-item4"><img src="./owox.svg" alt="#"></li>   
+    <ul class="Companies">
+        <li class="Companies__list-item"><img src="./mail.ru.svg" alt="#"></li>
+        <li  classs="Companies__list-item"><img src="./apple.svg" alt=""></li>
+        <li class="Companies__list-item"><img src="./eltex.svg" alt="#"></li>
+        <li class="Companies__list-item"><img src="./owox.svg" alt="#"></li>   
 </ul>
 </div>
   </section>
@@ -111,6 +114,39 @@
         </section>
     </section>
     </main>
+    <div class="popup">
+    <form action="#" class="form">
+        <div class="form__wrapper">
+            <div class="form__inner">
+                <label for="name"class="form__label-name" >Name</label>
+                    <input type="text" id="Name" class="form__input-name" placeholder="Ivan Ivanov">
+            </div>   
+        </div>
+               
+             <div class="form__wrapper">
+            <label for="phone" class="form__label-phone">Phone</label>
+            <input type="tel" id="phone" class="form__input-phone">
+    
+    <div class="form__wrapper">
+    <label for="email" class="form__label-email">Email</label>
+    <input type="email" id="email" class="form__input-email">
+    </div>
+    </div>
+    <div class="form__message">
+        <label for="message" class="form__label-message">Message</label>
+        <input type="message" id="message" class="form__input-message">
+    </div>
+       <ul>
+        <li class="agree__checkbox">
+            <input type="checkbox">
+        </li>
+       </ul>
+    
+    <button type="submit" class="button__contact">SUBMIT</button>
+    </form> 
+    <button type="button" class="close">X</button>
+    </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
-
 </html>

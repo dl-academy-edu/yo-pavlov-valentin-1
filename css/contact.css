@@ -21,8 +21,8 @@ top: 301px;
 position: absolute;
 width: 282px;
 height: 49px;
-left: 45px;
-top: 162px;
+left: 110px;
+top: 135px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -134,7 +134,37 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 22px;
-margin-top: 5px;
+margin-top: 7px;
 margin-left: 39px;
 }
 
+.paragraph__checkbox {
+    margin-top: -13px;
+    margin-left: 32px;
+    position: absolute;
+}
+
+.popup {
+    position: absolute;
+    left: 250px;
+    top: -190px;
+    display: flex;
+}
+
+.open {
+    display: block;
+}
+
+.contact__paragraph {
+    height: 66px;
+    width: 380px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;    
+    color: #1E0606;
+    margin-top: ;
+    margin-left: ;
+    column-rule: 20px;
+}

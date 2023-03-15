@@ -37,8 +37,7 @@ position: absolute;
 background: #1E0606;
 color: #FFFFFF;
 margin-left: 173px;
-margin-top: -184px;
-
+margin-top: 373px;
  }
 
  .img_monster {
@@ -53,10 +52,10 @@ margin-top: -184px;
    font-weight: 700;
    font-size: 38px;
    line-height: 46px;
-   position: absolute;
+
    text-transform: uppercase;
    color: #1E0606;
-   margin-top:-28px ;
+   margin-top:668px ;
    margin-left:40px ;
  }
  
@@ -66,7 +65,7 @@ margin-top: -184px;
    font-weight: 400;
    font-size: 20px;
    line-height: 26px;
-   position: absolute;
+
    color: #1E0606;
    display: flex;
    margin-left: 172px;
@@ -74,7 +73,7 @@ margin-top: -184px;
  }
 
 .cost_order {
-   position: absolute;
+
    width: 1180px;
    height: 39px;
    background: #C29974;
@@ -86,28 +85,47 @@ margin-top: -184px;
    position: absolute;   
    text-align: center;
    text-transform: uppercase;
-   margin-top: -55px;
+   margin-top: 130px;
    margin-left: 40px;
    color: #FFFFFF;
 }
 
 .Category_list {
  display: flex;
-margin-top: 120px;
 align-items: center;
-position: absolut;
-
 }
+
+.products__list-item.one {
+height: 270px;
+width: 280px;
+background: url(image);
+background-blend-mode: multiply;
+padding: 46px 18px;
+background: #DBE4DB;
+margin-top: ;
+}
+
+.products__list-title.one {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25)
+}
+
 .switch__category {
   display: flex;
   column-gap: 6px;
- 
-margin-left: 3px;
-position:absolute ;
+  display: flex;
+  margin-left: 3px;
 
 }
 .switch__category-item {
-  position: absolute;
+  margin-top:-22px ;
   width: 580px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -122,7 +140,8 @@ position:absolute ;
   height: 37px;
   width: 37px;
   color:rgba(112, 187, 220, 0.2);
-
+  margin-top: -52px;
+  display: flex;
 }
 
 .switch__active{
@@ -132,7 +151,7 @@ position:absolute ;
   margin-top:-324px ;
   margin-left: 32px;
   display: flex;
-  position: absolute;
+
 }
 
 .switch__number {
@@ -144,11 +163,11 @@ line-height: 73px;
 color: rgba(30, 6, 6, 0.05);
 margin-top: -407px;
 margin-left: 33px;
-position: absolute;
+
 }
 
-.switch1__rectangel {
-  position: absolute;
+.switch__rectangel-one {
+
 width: 31px;
 height: 3px;
 background: #D6CAC2;
@@ -157,8 +176,8 @@ margin-left: 32px;
 list-style-type: none;
 }
 
-.switch2__rectangel {
-  position: absolute;
+.switch__rectangel-two {
+ 
   width: 31px;
   height: 3px;
   background: #D6CAC2;
@@ -167,8 +186,8 @@ list-style-type: none;
   list-style-type: none;
   }
   
-.switch3__rectangel {
-  position: absolute;
+.switch3__rectangel-three {
+ 
   width: 31px;
   height: 3px;
   background: #D6CAC2;
@@ -178,28 +197,27 @@ list-style-type: none;
   }
      
   .woman_img {
-    position: absolute;
-    margin-top: 79px;
+  
+    margin-top: 53px;
     margin-left:40px ;
   }
 
   .delivery__baner {
-    position: absolute;
+ 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
-margin-top: 110px;
+margin-top: -530px;
 margin-left: 642px;
 color: #1E0606;
   }
 
   .delivery__link {
-    position: absolute;
-    left: 650px;
-    top: 1326px;
+    height: 35px;
+    width: 84px;
     background: rgba(112, 187, 220, 0.2);
     font-family: 'Crimson Text';
     font-style: italic;
@@ -207,33 +225,31 @@ color: #1E0606;
     font-size: 26px;
     line-height: 34px;
     color: #1E0606;
-    position: absolute;
-    margin-left: -60px;
-    margin-top: -42px;
+    margin-left: 540px;
+    margin-top: -35px;
     padding: 11px 180px 11px 60px;
 
   }
 
   .delivery__guarantee {
-    position: absolute;
+ 
 font-family: 'Crimson Text';
 font-style: italic;
 font-weight: 400;
 font-size: 26px;
 line-height: 34px;
 color: #1E0606;
-margin-top:226px ;
+margin-top:10px ;
 margin-left:600px ;
   }
 
   .delivery__credit {
 font-family: 'Crimson Text';
-position: absolute;
 font-style: italic;
 font-weight: 400;
 font-size: 26px;
 line-height: 34px;
-margin-top: 282px;
+margin-top: 20px;
 margin-left:600px ;
 color: #1E0606;
 position: absolute;
@@ -241,7 +257,7 @@ position: absolute;
 
   .paragraph__1 {
     display: flex;
-    position: absolute;
+   
 text-align: left;
 width: 480px;
 height: 66px;
@@ -249,15 +265,14 @@ font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-margin-top: 350px;
+margin-top: 87px;
 margin-left: 640px;
   }
 
   .paragraph__2 {
-    position: absolute;
+
 width: 480px;
 height: 88px;
-margin-top:431px ;
 margin-left: 640px;
   }
 
@@ -270,59 +285,33 @@ width: 149px;
 height: 40px;
 background: #000000;
 align-items: center;
-position: absolute;
+
 text-transform: uppercase;
 color: #FFFFFF;
 font-family: 'Open Sans';
 font-style: normal;
-margin-top:541px;
+margin-top:24px;
 margin-left:640px ;
 }
 
-.Companies__list-item1 {
-  position: absolute;
-  width: 193px;
-  height: 60px;
-  left: 50px;
-  top: 1850px;
-  border-radius: 0px;
-}
-
-.Companies__list-item2 {
-position: absolute;
-width: 179px;
+.Companies {
+width: 1180px;
 height: 61px;
-left: 370px;
-top: 1850px;
-background: url(image);
-opacity: 0.5;
+display: flex;
+column-gap: 127px;
+margin-top: 80px;
 }
 
-.Companies__list-item3 {
-position: absolute;
-width: 216px;
-height: 46px;
-left: 675px;
-top: 1856px;
-background: url(image);
-}
 
-.Companies__list-item4 {
-position: absolute;
-background: url(image);
-opacity: 0.8;
-width: 211px;
-height: 40px;
-left: 1017px;
-top: 1858px;
-}
+
+
 
 .About {
-position: absolute;
+margin-top: 105px;
+margin-left:40px ;
 width: 543px;
 height: 228px;
-left: 49px;
-top: 2027px;
+position: absolute;
 background: #E1F0F7;
 }
 
@@ -334,9 +323,9 @@ font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
 color: #1E0606;
-margin-top: -26px;
-margin-left: 28px;
-position: absolute;
+margin-top: -40px;
+margin-left: 35px;
+
 }
 
 .About__paragrath {
@@ -346,9 +335,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 22px;
 color: #1E0606;
-margin-top:75px ;
-margin-left: 29px;
-position: absolute;
+margin-top:-15px ;
+margin-left: 30px;
+
 }
 
 .button__about {
@@ -356,7 +345,7 @@ padding: 9px 22px;
 display: flex;
 flex-direction: row;
 align-items: center;
-position: absolute;
+
 width: 123px;
 height: 40px;
 background: #000000;
@@ -364,31 +353,31 @@ color: #FFFFFF;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
-margin-top:161px ;
+
 margin-left: 30px;
 }
 
 .About_US {
-position: absolute;
 font-family: 'Crimson Text';
 font-style: italic;
 font-weight: 400;
 font-size: 26px;
 line-height: 34px;
 color: #1E0606;
-margin-top: 28px;
-margin-left: 29px;
-position: absolute;
+margin-top: -40px;
+margin-left: 30px;
+
 }
 
 .contacts {
   background: #E1F0F7;
   width: 485px;
   height: 106px;
-  margin-top: 906px;
+  margin-top: 88px;
   margin-left: 640px;
   padding: 0 30px 102px 30px;
-position: absolute;
+  margin-left: ;
+  position: absolute;
 }
 
 .title__contacts {
@@ -400,13 +389,13 @@ font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
 color: #1E0606;
-margin-top:-25px ;
-position: absolute;
+margin-top:-23px ;
+
 }
 
 .contacts__paragraph {
 margin-left: ;
-margin-top: 45px;
+margin-top: -42px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -422,6 +411,6 @@ width: 483px;
 width: 483px;
 height: 196px;
 background: url(.png);
-position: absolute;
+margin-top: ;
 }
 
